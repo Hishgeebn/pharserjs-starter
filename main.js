@@ -24,6 +24,6 @@ function create() {
     // map.json -> tilesets -> name == MyTileset baih yostoi
     const tileset = map.addTilesetImage("MyTileset", "tiles")
 
-    // map.json -> tilesets -> name == MyTileset baih yostoi
+    // map.json -> layers -> name == background_layer_1
     const layer = map.createLayer("background_layer_1", tileset, 0, 0)
 }
